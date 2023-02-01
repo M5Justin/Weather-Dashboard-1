@@ -12,6 +12,7 @@ var getCity = function () {
       if (response.ok) {
           response.json().then(function (data) {
               displayCity(data);
+              console.log(data);
           });
       } else {
           alert('Error: ' + response.statusText);
@@ -23,6 +24,7 @@ var getCity = function () {
 };
 
 var displayCity = function (data) {
+  $('#cityTitle').text(data.main.name);
   $('#cityTemp').text(data.main.temp);
   $('#cityWind').text(data.wind.speed);
   $('#cityHumidity').text(data.main.humidity);
