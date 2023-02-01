@@ -10,5 +10,5 @@
     Also, the inquirer and jest packages will be used.
 
 ## Visuals
-    ![Website preview](./Assets/127.0.0.1_5500_Weather-Dashboard_wd.html.png)
+    ![Website preview](./Images/127.0.0.1_5500_Weather-Dashboard_wd.html.png)
 
