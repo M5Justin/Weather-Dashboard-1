@@ -1,9 +1,6 @@
 
-
-var textSearch = document.querySelector('#textSearch');
-var searchBtn = document.querySelector('#search-button');
 var APIKey = "04d1478f23980571496a41cab11aac4b";
-var city;
+var city = "";
 
 
 var getCity = function () {
