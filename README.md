@@ -1,5 +1,5 @@
 # Weather-Dashboard
-[Link to my project]()
+[Link to my project](https://m5justin.github.io/Weather-Dashboard-1/)
 
 ## Table of Contents
 - [Description](#description)
